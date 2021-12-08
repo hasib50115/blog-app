@@ -1,0 +1,34 @@
+.blog-card-container{
+    .blog-cards{
+        position: relative;
+        .blog-img{
+            img{
+                width: 100%;
+            }
+        }
+        .blog-card-info{
+            margin-left: auto;
+            h1{
+                font-weight: 600;
+                font-size: 40px;
+                color: #14478D;
+                margin-top: 10px;
+            }
+            p{
+                font-size: 25px;
+                font-weight: 500;
+                max-width: 400px;
+            }
+            button{
+                position: absolute;
+                bottom: 0px;
+                border: none;
+                color: white;
+                width: 289px;
+                height: 46px;
+                background: #FB5D5E 0% 0% no-repeat padding-box;
+                border-radius: 73px 0px 0px 0px;
+            }
+        }
+    }
+}
